@@ -7,17 +7,84 @@
     <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Chewy|Fredericka+the+Great|Homemade+Apple|Love+Ya+Like+A+Sister|Nothing+You+Could+Do&display=swap" rel="stylesheet">
     <script type="text/javascript" src="mandawebJava.js"></script>
     <link rel="stylesheet" type="text/css" href="mandaweb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8" />
     <title></title>
 </head>
 <body>
     <div class="container">
         <h2 id="basic">Amanda's Projects</h2>
+        <div class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img class="slide-image" src="smartcookie.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img class="slide-image" src="curlyhair.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img class="slide-image" src="faithshirt.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img class="slide-image" src="proudcheer.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img class="slide-image" src="curlyhair.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img class="slide-image" src="proudcheer.jpg" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="smartcookie.jpg" style="width:100%" onclick="currentSlide(1)" alt="One Smart Cookie">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="curlyhair.jpg" style="width:100%" onclick="currentSlide(2)" alt="Curly Hair Don't Care">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="faithshirt.jpg" style="width:100%" onclick="currentSlide(3)" alt="Faith">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="proudcheer.jpg" style="width:100%" onclick="currentSlide(4)" alt="Proud Cheer Aunt">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="curlyhair.jpg" style="width:100%" onclick="currentSlide(5)" alt="Curly Hair Don't Care">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="proudcheer.jpg" style="width:100%" onclick="currentSlide(6)" alt="Proud Cheer Aunt">
+                </div>
+            </div>
+        </div>
         <div class="btn-group">
             <button type="button" class="btn btn-primary button" onclick="location.href = 'index.html';">Home</button>
             <button type="button" class="btn btn-primary button" onclick="location.href = 'AmandaDesignsAbout.html';">About</button>
-            <button type="button" class="btn btn-primary button" href="#contact">Contact Amanda</button>
+            <button type="button" class="btn btn-primary button" onclick="location.href = 'ContactAmanda.html';">Contact Amanda</button>
         </div>
+
     </div>
+    <footer><a target="_blank" title="follow me on facebook" href="https://www.facebook.com/PLACEHOLDER"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a></footer>
 </body>
 </html>
