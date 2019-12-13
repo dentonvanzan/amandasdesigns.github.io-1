@@ -16,6 +16,11 @@
     text-shadow: 12px 12px #000;
     margin-top: 150px;
 }
+.mailto{
+    display:block;
+    width:100px;
+    height:20px;
+}
 body {
     background-image: url(scissors.jpg);
     background-repeat: no-repeat;
