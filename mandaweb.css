@@ -45,7 +45,7 @@ div {
 }
 .button {
     font-family: 'Kaushan Script', cursive;
-    background-color: hotpink; /* Green */
+    background-color: hotpink;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -55,7 +55,13 @@ div {
     font-size: 16px;
     border-radius: 50%;
 }
-
+.button2{
+    background-color: transparent;
+    border: none;
+}
+.button2:hover{
+    background-color: hotpink;
+}
 .slide-image {
     vertical-align: middle;
     border-radius: 10px;
