@@ -6,6 +6,14 @@
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Chewy|Fredericka+the+Great|Homemade+Apple|Love+Ya+Like+A+Sister|Nothing+You+Could+Do&display=swap" rel="stylesheet">
     <script type="text/javascript" src="mandawebJava.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#emailbtn").click(function () {
+                alert("amandasdesigns@outlook.com");
+            });
+        });
+    </script>
     <link rel="stylesheet" type="text/css" href="mandaweb.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8" />
@@ -15,13 +23,13 @@
     <div class="container">
         <h2 id="basic">ContactAmanda</h2>
         <p>
-            Do you have any questions or would you like to have Amanda make something for you? <br />You can email Amanda at <strong style="color: deeppink";><i>amandasdesigns@outlook.com</i></strong>.
+            Do you have any questions or would you like to have Amanda make something for you? <br />You can email Amanda at <strong style="color: deeppink";><button type="button" id="emailbtn"><i>email</i> </button></strong>.
             <div class="btn-group">
                 <button type="button" class="btn btn-primary button" onclick="location.href = 'index.html';">Home</button>
                 <button type="button" class="btn btn-primary button" onclick="location.href = 'AmandaDesignsAbout.html';">About</button>
                 <button type="button" class="btn btn-primary button" onclick="location.href ='AmandasProjects.html';">Amanda's Projects</button>
             </div>
     </div>
-    <p style="text-align:center";><a target="_blank" title="follow me on facebook" href="https://www.facebook.com/people/Amanda-Taylor/100024396503591"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a></p>
+    <footer><a target="_blank" title="follow me on facebook" href="https://www.facebook.com/people/Amanda-Taylor/100024396503591"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0><strong>Follow me on Facebook!</strong></a></footer>
 </body>
 </html>
