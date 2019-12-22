@@ -1,29 +1,41 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Euphoria+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Chewy|Fredericka+the+Great|Homemade+Apple|Love+Ya+Like+A+Sister|Nothing+You+Could+Do&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="mandawebJava.js"></script>
-    <link rel="stylesheet" type="text/css" href="mandaweb.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <meta charset="utf-8" />
-    <title></title>
+<title>Amanda's Designs</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
 
-    <div class="container">
-        <h1 id="basic">Amanda's Designs</h1>
-        <h2 style="font-family: 'Permanent Marker', cursive; font-size: 48px;"><strong style="color:red;">MERRY CHRISTMAS BOO THANG!</strong><br /><strong style="color:green;">I LOVE YOU!</strong></h2>
-        
-        <div class="btn-grp">
-            <button type="button" class="btn btn-primary button" onclick="location.href = 'AmandaDesignsAbout.html';">About</button>
-            <button type="button" class="btn btn-primary button" onclick="location.href = 'AmandasProjects.html';">Projects</button>
-            <button type="button" class="btn btn-primary button" onclick="location.href='ContactAmanda.html';">Contact Amanda</button>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="#home" class="w3-bar-item w3-button"><strong style="border: double">AD</strong>&nbsp;Amanda's Designs</a>
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="AmandasProjects.html" class="w3-bar-item w3-button">Projects</a>
+                <a href="AmandaDesignsAbout.html" class="w3-bar-item w3-button">About</a>
+                <a href="ContactAmanda.html" class="w3-bar-item w3-button">Contact</a>
             </div>
+        </div>
     </div>
-    <footer><a target="https://www.facebook.com/people/Amanda-Taylor/100024396503591" title="follow me on facebook" href="https://www.facebook.com/people/Amanda-Taylor/100024396503591"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a></footer>
- </body>
+
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+        <img class="w3-image" src="decals.png" alt="Decals" width="1500" height="800">
+        <div class="w3-display-middle w3-margin-top w3-center">
+            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>AD</b></span>&nbsp;<span class="w3-hide-small w3-text-light-grey">Amanda's Designs</span></h1>
+        </div>
+    </header>
+
+
+
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+        <p><a target="_blank" title="follow me on facebook" href="https://www.facebook.com/people/Amanda-Taylor/100024396503591"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0><strong> &nbsp;Follow me on Facebook!</strong></a></p>
+    </footer>
+
+</body>
 </html>
